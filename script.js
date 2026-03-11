@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function(){
 
-let elements = document.querySelectorAll(".card, .sector, .galeria img");
+let elements = document.querySelectorAll(".card");
 
 elements.forEach(function(el){
 
