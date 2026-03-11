@@ -4,199 +4,108 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Biosilver Ingeniería Biomédica</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<header>
+<header class="header">
 
 <div class="logo">
-<img src="images/logo.png">
+
+<img src="imagess/logo.png">
+
 <h2>Biosilver</h2>
+
 </div>
 
 <nav>
 
-<a href="#">Inicio</a>
-<a href="#servicios">Servicios</a>
-<a href="#equipos">Equipos</a>
-<a href="#sectores">Sectores</a>
-<a href="#faq">Preguntas</a>
-<a href="#contacto">Contacto</a>
+<a href="index.html">Inicio</a>
+<a href="servicios.html">Servicios</a>
+<a href="mantenimiento.html">Mantenimiento</a>
+<a href="trabajos.html">Trabajos</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="contacto.html">Contacto</a>
 
 </nav>
-
-<a class="btn">Solicitar servicio</a>
 
 </header>
 
 <section class="hero">
 
-<h1>Ingeniería Biomédica y Electrónica</h1>
+<h1 class="fade">Ingeniería Biomédica y Electrónica</h1>
 
-<p>
-Soluciones profesionales para mantenimiento,
-diagnóstico y reparación de equipos médicos.
+<p class="fade">
+
+Empresa especializada en mantenimiento,
+diagnóstico y reparación de equipos médicos y
+de laboratorio clínico.
+
+Equipo de ingenieros electrónicos y biomédicos
+comprometidos con la seguridad y confiabilidad
+de los equipos clínicos.
+
 </p>
 
-<a class="btn2">Solicitar Diagnóstico</a>
+<div class="hero-buttons">
 
-</section>
+<a href="servicios.html" class="btn">Servicios</a>
 
-<section id="servicios">
-
-<h2>Servicios</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<i class="fa-solid fa-microscope"></i>
-
-<h3>Laboratorio Clínico</h3>
-
-<p>
-Centrífugas, analizadores hematológicos,
-bioquímicos, incubadoras y espectrofotómetros.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-hospital"></i>
-
-<h3>Equipos Hospitalarios</h3>
-
-<p>
-Monitores de paciente,
-ventiladores,
-desfibriladores,
-bombas de infusión.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-tooth"></i>
-
-<h3>Odontología</h3>
-
-<p>
-Unidades dentales,
-autoclaves,
-ultrasonidos
-y compresores.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-screwdriver-wrench"></i>
-
-<h3>Diagnóstico técnico</h3>
-
-<p>
-Reparación electrónica
-y calibración de sensores médicos.
-</p>
-
-</div>
+<a href="contacto.html" class="btn2">Solicitar diagnóstico</a>
 
 </div>
 
 </section>
 
-<section id="equipos">
+<section class="experiencia">
 
-<h2>Equipos que atendemos</h2>
-
-<div class="gallery">
-
-<img src="images/laboratorio.jpg">
-<img src="images/hospital.jpg">
-<img src="images/microscopio.jpg">
-<img src="images/autoclave.jpg">
-
-</div>
-
-</section>
-
-<section id="sectores">
-
-<h2>Sectores atendidos</h2>
-
-<div class="sectores">
-
-<div>🏥 Hospitales</div>
-<div>🧪 Laboratorios</div>
-<div>🏥 Clínicas</div>
-<div>🦷 Odontología</div>
-
-</div>
-
-</section>
-
-<section id="faq">
-
-<h2>Preguntas Frecuentes</h2>
-
-<div class="faq">
-
-<h4>¿Cada cuánto realizar mantenimiento?</h4>
-<p>Entre 6 y 12 meses dependiendo del equipo.</p>
-
-<h4>¿Atienden emergencias?</h4>
-<p>Sí, ofrecemos atención rápida.</p>
-
-<h4>¿Realizan calibración?</h4>
-<p>Sí, calibración de sensores biomédicos.</p>
-
-</div>
-
-</section>
-
-<section id="contacto">
-
-<h2>Contacto</h2>
+<h2>Nuestra Experiencia</h2>
 
 <p>
-Atención en Cochabamba y alrededores
+
+Profesionales especializados en mantenimiento
+y gestión tecnológica de equipos médicos, con
+experiencia en diagnóstico electrónico,
+mantenimiento preventivo y correctivo,
+calibración de sensores biomédicos y
+verificación de seguridad eléctrica hospitalaria.
+
 </p>
 
-<a class="whatsapp"
-href="https://wa.me/59168533729">
-<a class="whatsapp"
-href="https://wa.me/59175978639">
+</section>
+
+<!-- BOTONES FLOTANTES -->
+
+<a href="https://wa.me/59175978639"
+class="whatsapp gerente">
 
 <i class="fa-brands fa-whatsapp"></i>
 
-Contactar por WhatsApp
+Gerente
 
 </a>
 
-</section>
+<a href="https://wa.me/59168533729"
+class="whatsapp mantenimiento">
 
-<footer>
+<i class="fa-brands fa-whatsapp"></i>
 
-<p>
-© Biosilver Ingeniería Biomédica
-</p>
+Jefe de mantenimiento
 
-</footer>
+</a>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
